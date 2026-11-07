@@ -1,0 +1,293 @@
+{
+  "id": "lesson_002",
+  "items": [
+    {
+      "id": "item_001",
+      "steps": {
+        "understand": {
+          "sentence": "Co u ciebie słychać?",
+          "translation": "چه خبر؟ حالت چطور است؟",
+          "vocabulary": [
+            {
+              "word": "u ciebie",
+              "meaning": "پیش تو"
+            }
+          ]
+        },
+        "recall": {
+          "prompt": "چه خبر؟ حالت چطور است؟",
+          "answer": "Co u ciebie słychać?"
+        },
+        "variation": {
+          "prompt": "حال شما چطور است؟ (رسمی)",
+          "answer": "Co u pana słychać?",
+          "translation": "حال شما چطور است؟ (رسمی)"
+        }
+      }
+    },
+    {
+      "id": "item_002",
+      "steps": {
+        "understand": {
+          "sentence": "Wszystko w porządku.",
+          "translation": "همه چیز روبه‌راه است.",
+          "vocabulary": [
+            {
+              "word": "w porządku",
+              "meaning": "روبه‌راه"
+            }
+          ]
+        },
+        "recall": {
+          "prompt": "همه چیز روبه‌راه است.",
+          "answer": "Wszystko w porządku."
+        },
+        "variation": {
+          "prompt": "همه چیز خوب است.",
+          "answer": "Wszystko dobrze.",
+          "translation": "همه چیز خوب است."
+        }
+      }
+    },
+    {
+      "id": "item_003",
+      "steps": {
+        "understand": {
+          "sentence": "Skąd jesteś?",
+          "translation": "اهل کجایی؟",
+          "vocabulary": [
+            {
+              "word": "skąd",
+              "meaning": "از کجا"
+            }
+          ]
+        },
+        "recall": {
+          "prompt": "اهل کجایی؟",
+          "answer": "Skąd jesteś?"
+        },
+        "variation": {
+          "prompt": "او اهل کجاست؟",
+          "answer": "Skąd ona jest?",
+          "translation": "او اهل کجاست؟"
+        }
+      }
+    },
+    {
+      "id": "item_004",
+      "steps": {
+        "understand": {
+          "sentence": "Jestem z Iranu.",
+          "translation": "من اهل ایران هستم.",
+          "vocabulary": [
+            {
+              "word": "z Iranu",
+              "meaning": "از ایران"
+            }
+          ]
+        },
+        "recall": {
+          "prompt": "من اهل ایران هستم.",
+          "answer": "Jestem z Iranu."
+        },
+        "variation": {
+          "prompt": "من اهل لهستان هستم.",
+          "answer": "Jestem z Polski.",
+          "translation": "من اهل لهستان هستم."
+        }
+      }
+    },
+    {
+      "id": "item_005",
+      "steps": {
+        "understand": {
+          "sentence": "Gdzie mieszkasz?",
+          "translation": "کجا زندگی می‌کنی؟",
+          "vocabulary": [
+            {
+              "word": "mieszkasz",
+              "meaning": "زندگی می‌کنی"
+            }
+          ]
+        },
+        "recall": {
+          "prompt": "کجا زندگی می‌کنی؟",
+          "answer": "Gdzie mieszkasz?"
+        },
+        "variation": {
+          "prompt": "آنا کجا زندگی می‌کند؟",
+          "answer": "Gdzie mieszka Anna?",
+          "translation": "آنا کجا زندگی می‌کند؟"
+        }
+      }
+    },
+    {
+      "id": "item_006",
+      "steps": {
+        "understand": {
+          "sentence": "Mieszkam w Gdańsku.",
+          "translation": "من در گدانسک زندگی می‌کنم.",
+          "vocabulary": [
+            {
+              "word": "mieszkam",
+              "meaning": "زندگی می‌کنم"
+            }
+          ]
+        },
+        "recall": {
+          "prompt": "من در گدانسک زندگی می‌کنم.",
+          "answer": "Mieszkam w Gdańsku."
+        },
+        "variation": {
+          "prompt": "من در کراکوف زندگی می‌کنم.",
+          "answer": "Mieszkam w Krakowie.",
+          "translation": "من در کراکوف زندگی می‌کنم."
+        }
+      }
+    },
+    {
+      "id": "item_007",
+      "steps": {
+        "understand": {
+          "sentence": "Czy pracujesz?",
+          "translation": "آیا کار می‌کنی؟",
+          "vocabulary": [
+            {
+              "word": "pracujesz",
+              "meaning": "کار می‌کنی"
+            }
+          ]
+        },
+        "recall": {
+          "prompt": "آیا کار می‌کنی؟",
+          "answer": "Czy pracujesz?"
+        },
+        "variation": {
+          "prompt": "آیا دانشجو هستی؟",
+          "answer": "Czy studiujesz?",
+          "translation": "آیا دانشجو هستی؟"
+        }
+      }
+    },
+    {
+      "id": "item_008",
+      "steps": {
+        "understand": {
+          "sentence": "Pracuję w biurze.",
+          "translation": "من در دفتر کار می‌کنم.",
+          "vocabulary": [
+            {
+              "word": "w biurze",
+              "meaning": "در دفتر"
+            }
+          ]
+        },
+        "recall": {
+          "prompt": "من در دفتر کار می‌کنم.",
+          "answer": "Pracuję w biurze."
+        },
+        "variation": {
+          "prompt": "من در خانه کار می‌کنم.",
+          "answer": "Pracuję w domu.",
+          "translation": "من در خانه کار می‌کنم."
+        }
+      }
+    },
+    {
+      "id": "item_009",
+      "steps": {
+        "understand": {
+          "sentence": "Uczę się polskiego.",
+          "translation": "من لهستانی یاد می‌گیرم.",
+          "vocabulary": [
+            {
+              "word": "uczę się",
+              "meaning": "یاد می‌گیرم"
+            }
+          ]
+        },
+        "recall": {
+          "prompt": "من لهستانی یاد می‌گیرم.",
+          "answer": "Uczę się polskiego."
+        },
+        "variation": {
+          "prompt": "من انگلیسی یاد می‌گیرم.",
+          "answer": "Uczę się angielskiego.",
+          "translation": "من انگلیسی یاد می‌گیرم."
+        }
+      }
+    },
+    {
+      "id": "item_010",
+      "steps": {
+        "understand": {
+          "sentence": "Dlaczego uczysz się polskiego?",
+          "translation": "چرا لهستانی یاد می‌گیری؟",
+          "vocabulary": [
+            {
+              "word": "dlaczego",
+              "meaning": "چرا"
+            }
+          ]
+        },
+        "recall": {
+          "prompt": "چرا لهستانی یاد می‌گیری؟",
+          "answer": "Dlaczego uczysz się polskiego?"
+        },
+        "variation": {
+          "prompt": "چرا کار می‌کنی؟",
+          "answer": "Dlaczego pracujesz?",
+          "translation": "چرا کار می‌کنی؟"
+        }
+      }
+    },
+    {
+      "id": "item_011",
+      "steps": {
+        "understand": {
+          "sentence": "Chcę mieszkać w Polsce.",
+          "translation": "می‌خواهم در لهستان زندگی کنم.",
+          "vocabulary": [
+            {
+              "word": "chcę",
+              "meaning": "می‌خواهم"
+            }
+          ]
+        },
+        "recall": {
+          "prompt": "می‌خواهم در لهستان زندگی کنم.",
+          "answer": "Chcę mieszkać w Polsce."
+        },
+        "variation": {
+          "prompt": "می‌خواهم در لهستان کار کنم.",
+          "answer": "Chcę pracować w Polsce.",
+          "translation": "می‌خواهم در لهستان کار کنم."
+        }
+      }
+    },
+    {
+      "id": "item_012",
+      "steps": {
+        "understand": {
+          "sentence": "Mam dwadzieścia lat.",
+          "translation": "من بیست سال دارم.",
+          "vocabulary": [
+            {
+              "word": "lat",
+              "meaning": "سال (سن)"
+            }
+          ]
+        },
+        "recall": {
+          "prompt": "من بیست سال دارم.",
+          "answer": "Mam dwadzieścia lat."
+        },
+        "variation": {
+          "prompt": "من بیست‌وپنج سال دارم.",
+          "answer": "Mam dwadzieścia pięć lat.",
+          "translation": "من بیست‌وپنج سال دارم."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "lessons": [
+    {
+      "id": "lesson_001",
+      "title": "اولین روز در مدرسه",
+      "description": "سلام و معرفی، پرسیدن نام، پیدا کردن مکان‌ها و عبارت‌های کاربردی کلاس زبان.",
+      "access": "free"
+    },
+    {
+      "id": "lesson_002",
+      "title": "سلام، اهل کجایی؟",
+      "description": "احوال‌پرسی، کشور و شهر، محل زندگی، کار و یادگیری زبان.",
+      "access": "free"
+    },
+    {
+      "id": "lesson_003",
+      "title": "مامی، این کیست؟",
+      "description": "اشیای کلاس، رنگ‌ها، صفت‌های پایه و معرفی افراد.",
+      "access": "protected"
+    },
+    {
+      "id": "lesson_004",
+      "title": "چه جور آدمی هستی؟",
+      "description": "توصیف شخصیت و ظاهر، نظر دادن و صفت‌ها.",
+      "access": "protected"
+    },
+    {
+      "id": "lesson_005",
+      "title": "آیا مربی تانگو هستی؟",
+      "description": "شغل‌ها، سن، علایق و معرفی خود.",
+      "access": "protected"
+    },
+    {
+      "id": "lesson_006",
+      "title": "چه کار می‌کنی؟ حوصله‌ام سر رفته!",
+      "description": "کارهای روزانه، سرگرمی‌ها، خانواده و مالکیت.",
+      "access": "protected"
+    },
+    {
+      "id": "lesson_007",
+      "title": "خریدهای کوچک",
+      "description": "قیمت پرسیدن، خرید از کیوسک و فروشگاه و پرداخت.",
+      "access": "protected"
+    },
+    {
+      "id": "lesson_008",
+      "title": "مامی، گرسنه‌ای؟",
+      "description": "صبحانه، غذا و نوشیدنی، سلیقه غذایی و سفارش ساده.",
+      "access": "protected"
+    },
+    {
+      "id": "lesson_009",
+      "title": "هویج دوست داری؟",
+      "description": "میوه و سبزیجات، خرید مواد غذایی و سوپرمارکت.",
+      "access": "protected"
+    },
+    {
+      "id": "lesson_010",
+      "title": "عاشق غذای لهستانی‌ام!",
+      "description": "رستوران، رزرو میز، سفارش غذا و بیان ترجیحات.",
+      "access": "protected"
+    },
+    {
+      "id": "lesson_011",
+      "title": "خانواده",
+      "description": "اعضای خانواده، نسبت‌ها، مالکیت و عادت‌های روزانه",
+      "access": "protected"
+    },
+    {
+      "id": "lesson_012",
+      "title": "قرار ملاقات و برنامه هفتگی",
+      "description": "روزهای هفته، ساعت، دعوت کردن و قرار گذاشتن",
+      "access": "protected"
+    },
+    {
+      "id": "lesson_013",
+      "title": "آخر هفته گذشته",
+      "description": "گذشته افعال، تجربه‌ها و فعالیت‌های اوقات فراغت",
+      "access": "protected"
+    },
+    {
+      "id": "lesson_014",
+      "title": "در شهر و پرسیدن مسیر",
+      "description": "حمل‌ونقل، مسیر، رفتن و راهنمایی گرفتن",
+      "access": "protected"
+    },
+    {
+      "id": "lesson_015",
+      "title": "خرید و بسته‌بندی",
+      "description": "مقدار، بسته‌ها، خرید روزمره و اداره پست",
+      "access": "protected"
+    },
+    {
+      "id": "lesson_016",
+      "title": "آب‌وهوا و برنامه‌های آینده",
+      "description": "فصل‌ها، ماه‌ها، هواشناسی و آینده",
+      "access": "protected"
+    },
+    {
+      "id": "lesson_017",
+      "title": "احساسات و نظرها",
+      "description": "دوست داشتن، خوش آمدن، نظر دادن و ضمایر",
+      "access": "protected"
+    },
+    {
+      "id": "lesson_018",
+      "title": "خانه من",
+      "description": "اتاق‌ها، وسایل خانه و مکان اشیا",
+      "access": "protected"
+    },
+    {
+      "id": "lesson_019",
+      "title": "جست‌وجوی خانه",
+      "description": "اجاره، هتل، موقعیت مکانی و توصیف محل",
+      "access": "protected"
+    },
+    {
+      "id": "lesson_020",
+      "title": "سفر در لهستان",
+      "description": "جغرافیا، مقایسه و برنامه سفر",
+      "access": "protected"
+    },
+    {
+      "id": "lesson_021",
+      "title": "تاریخ‌ها و گذشته",
+      "description": "تولد، تاریخ، زندگی‌نامه و وجه کامل/ناقص",
+      "access": "protected"
+    },
+    {
+      "id": "lesson_022",
+      "title": "برنامه آخر هفته",
+      "description": "آینده افعال، تماس تلفنی و برنامه‌ریزی",
+      "access": "protected"
+    },
+    {
+      "id": "lesson_023",
+      "title": "لباس و خرید پوشاک",
+      "description": "اندازه، رنگ، جنس، مقایسه و تعریف کردن",
+      "access": "protected"
+    },
+    {
+      "id": "lesson_024",
+      "title": "ظاهر و آرایشگاه",
+      "description": "مو، ظاهر، اعضای بدن و مقایسه قیدها",
+      "access": "protected"
+    },
+    {
+      "id": "lesson_025",
+      "title": "سلامتی و پزشک",
+      "description": "درد، مراجعه به پزشک، دندان‌پزشک و توصیه‌ها",
+      "access": "protected"
+    },
+    {
+      "id": "lesson_026",
+      "title": "مشکلات روزمره و خدمات",
+      "description": "درخواست مؤدبانه، خرابی، شکایت، گم‌شدن و اتفاق‌ها",
+      "access": "protected"
+    }
+  ]
+}

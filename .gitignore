@@ -54,4 +54,5 @@ app.*.map.json
 !/tool/
 /tool/*
 !/tool/check_lesson_assets.js
+!/tool/check_web_build_assets.js
 /investigate/

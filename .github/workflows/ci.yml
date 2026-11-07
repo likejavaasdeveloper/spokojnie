@@ -1,0 +1,61 @@
+name: CI
+
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.32.8'
+
+      - name: Verify tool versions
+        run: |
+          flutter --version
+          dart --version
+          flutter --version | grep -q 'Flutter 3.32.8'
+          dart --version 2>&1 | grep -q 'Dart SDK version: 3.8.1'
+
+      - name: Install Flutter dependencies
+        run: flutter pub get
+
+      - name: Analyze Dart code
+        run: flutter analyze
+
+      - name: Run Flutter tests
+        run: flutter test
+
+      - name: Run Chrome Web Crypto test
+        run: flutter test --platform chrome test/infrastructure/web_crypto_browser_interop_test.dart
+
+      - name: Validate source lesson assets
+        run: node tool/check_lesson_assets.js
+
+      - name: Build Flutter Web release
+        run: flutter build web --release --base-href /spokojnie/
+
+      - name: Validate web build assets
+        run: node tool/check_web_build_assets.js

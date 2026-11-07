@@ -1,0 +1,33 @@
+{
+  "id": "lesson_003",
+  "items": [
+    {
+      "id": "fixture_item_001",
+      "steps": {
+        "understand": {
+          "sentence": "To jest test.",
+          "translation": "این یک آزمون است.",
+          "vocabulary": [
+            {
+              "word": "To jest",
+              "meaning": "این است"
+            },
+            {
+              "word": "test",
+              "meaning": "آزمون"
+            }
+          ]
+        },
+        "recall": {
+          "prompt": "این یک آزمون است.",
+          "answer": "To jest test."
+        },
+        "variation": {
+          "prompt": "این یک درس است.",
+          "answer": "To jest lekcja.",
+          "translation": "این یک درس است."
+        }
+      }
+    }
+  ]
+}

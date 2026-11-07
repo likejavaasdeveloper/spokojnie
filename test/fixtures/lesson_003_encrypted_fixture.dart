@@ -1,0 +1,16 @@
+const String encryptedLessonFixture = r'''
+{
+  "version": 1,
+  "algorithm": "AES-256-GCM",
+  "kdf": "PBKDF2-HMAC-SHA-256",
+  "kdfParameters": {
+    "salt": "9fomN-Oy2f8D2gCCTnAVWQ",
+    "iterations": 600000,
+    "keyLength": 32
+  },
+  "nonce": "b22Nb_PEuqo-VCUz",
+  "tag": "dSmYHGcCGnDcbJVhybNANQ",
+  "associatedData": "spokojnie:lesson-envelope:v1:lesson_003",
+  "ciphertext": "qZ4xDH1-ALrYil08zZ3nb7GxJBBpFuoF07qtnkAbCaQCrAds1UNk2mtfOJsMl6eQSj6qlsmjh--bD4gYdlFsdEbwxm_o62yPrfUlKdHFBHcnya0xQ2FUHaDSnElYQwZFLnaIruQE5X4rhg2EDhEZj23F5SUQCW8EU8B6YbNkA9S93fGsV2YJPftsPZQwVvtPHOk3y2C08lwshLi2BgjDeKUmVBh1NA5lIoN-qeNm7vqjebfsI0t2AUM3g_JtbKftE5bMLSLjZYbt63s9RmXIMjequ4HYZkhoiUcLiL59caJUh-8V-7LxcaPhPJ0FPqwm9llzSvePse_xKqTwJiSf7F80SjAXBwywv3zkPeHiC169Qg-rSFhXZEBYeEFRmjpXxNPCEPFI8eQvnm2wU9G9IvKI7iOddEqZi4MxVNaOMCQfTPhtZWq6vvGItjB5lgV6z13gGVAQaYrExDUZzw0ba-U43Jn3wV-kJIlq9GlqsXmGKF5TEV2CGhEnH7T58ttqw0Xuuc-I4LxKN9M9TuZfrzocCj994dk9llHFYZxkztXK6_xODzAgjGKs9vOsw5g4fyweFJQzuKGx19RmbqytfuZMaRui"
+}
+''';

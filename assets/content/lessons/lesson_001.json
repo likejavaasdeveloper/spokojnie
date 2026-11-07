@@ -1,0 +1,437 @@
+{
+  "id": "lesson_001",
+  "items": [
+    {
+      "id": "item_001",
+      "steps": {
+        "understand": {
+          "sentence": "Dzień dobry.",
+          "translation": "روز بخیر.",
+          "vocabulary": [
+            {
+              "word": "Dzień dobry",
+              "meaning": "روز بخیر"
+            }
+          ]
+        },
+        "recall": {
+          "prompt": "روز بخیر.",
+          "answer": "Dzień dobry."
+        },
+        "variation": {
+          "prompt": "سلام (غیررسمی).",
+          "answer": "Cześć.",
+          "translation": "سلام (غیررسمی)."
+        }
+      }
+    },
+    {
+      "id": "item_002",
+      "steps": {
+        "understand": {
+          "sentence": "Cześć, jestem Tom.",
+          "translation": "سلام، من تام هستم.",
+          "vocabulary": [
+            {
+              "word": "jestem",
+              "meaning": "هستم"
+            }
+          ]
+        },
+        "recall": {
+          "prompt": "سلام، من تام هستم.",
+          "answer": "Cześć, jestem Tom."
+        },
+        "variation": {
+          "prompt": "سلام، من مامی هستم.",
+          "answer": "Cześć, jestem Mami.",
+          "translation": "سلام، من مامی هستم."
+        }
+      }
+    },
+    {
+      "id": "item_003",
+      "steps": {
+        "understand": {
+          "sentence": "Nazywam się Mami.",
+          "translation": "اسم من مامی است.",
+          "vocabulary": [
+            {
+              "word": "Nazywam się",
+              "meaning": "نام من ... است"
+            }
+          ]
+        },
+        "recall": {
+          "prompt": "اسم من مامی است.",
+          "answer": "Nazywam się Mami."
+        },
+        "variation": {
+          "prompt": "اسم من آنجلا است.",
+          "answer": "Nazywam się Angela.",
+          "translation": "اسم من آنجلا است."
+        }
+      }
+    },
+    {
+      "id": "item_004",
+      "steps": {
+        "understand": {
+          "sentence": "A ty?",
+          "translation": "و تو؟",
+          "vocabulary": [
+            {
+              "word": "ty",
+              "meaning": "تو"
+            }
+          ]
+        },
+        "recall": {
+          "prompt": "و تو؟",
+          "answer": "A ty?"
+        },
+        "variation": {
+          "prompt": "و شما؟ (رسمی، خطاب به خانم)",
+          "answer": "A pani?",
+          "translation": "و شما؟ (رسمی، خطاب به خانم)"
+        }
+      }
+    },
+    {
+      "id": "item_005",
+      "steps": {
+        "understand": {
+          "sentence": "Bardzo mi miło.",
+          "translation": "خیلی خوشوقتم.",
+          "vocabulary": [
+            {
+              "word": "miło",
+              "meaning": "خوشایند / خوشوقتم"
+            }
+          ]
+        },
+        "recall": {
+          "prompt": "خیلی خوشوقتم.",
+          "answer": "Bardzo mi miło."
+        },
+        "variation": {
+          "prompt": "من هم خوشوقتم.",
+          "answer": "Mnie również.",
+          "translation": "من هم خوشوقتم."
+        }
+      }
+    },
+    {
+      "id": "item_006",
+      "steps": {
+        "understand": {
+          "sentence": "Jak masz na imię?",
+          "translation": "اسمت چیست؟",
+          "vocabulary": [
+            {
+              "word": "na imię",
+              "meaning": "نام کوچک"
+            }
+          ]
+        },
+        "recall": {
+          "prompt": "اسمت چیست؟",
+          "answer": "Jak masz na imię?"
+        },
+        "variation": {
+          "prompt": "اسم شما چیست؟ (رسمی، خطاب به خانم)",
+          "answer": "Jak pani ma na imię?",
+          "translation": "اسم شما چیست؟ (رسمی، خطاب به خانم)"
+        }
+      }
+    },
+    {
+      "id": "item_007",
+      "steps": {
+        "understand": {
+          "sentence": "Jak się nazywasz?",
+          "translation": "نامت چیست؟",
+          "vocabulary": [
+            {
+              "word": "nazywasz",
+              "meaning": "نام داری / نامیده می‌شوی"
+            }
+          ]
+        },
+        "recall": {
+          "prompt": "نامت چیست؟",
+          "answer": "Jak się nazywasz?"
+        },
+        "variation": {
+          "prompt": "نام شما چیست؟ (رسمی، خطاب به آقا)",
+          "answer": "Jak się pan nazywa?",
+          "translation": "نام شما چیست؟ (رسمی، خطاب به آقا)"
+        }
+      }
+    },
+    {
+      "id": "item_008",
+      "steps": {
+        "understand": {
+          "sentence": "Przepraszam, gdzie jest toaleta?",
+          "translation": "ببخشید، دستشویی کجاست؟",
+          "vocabulary": [
+            {
+              "word": "gdzie jest",
+              "meaning": "کجاست"
+            }
+          ]
+        },
+        "recall": {
+          "prompt": "ببخشید، دستشویی کجاست؟",
+          "answer": "Przepraszam, gdzie jest toaleta?"
+        },
+        "variation": {
+          "prompt": "ببخشید، اینترنت کجاست؟",
+          "answer": "Przepraszam, gdzie jest Internet?",
+          "translation": "ببخشید، اینترنت کجاست؟"
+        }
+      }
+    },
+    {
+      "id": "item_009",
+      "steps": {
+        "understand": {
+          "sentence": "Toaleta jest tam, na prawo.",
+          "translation": "دستشویی آنجاست، سمت راست.",
+          "vocabulary": [
+            {
+              "word": "na prawo",
+              "meaning": "به سمت راست"
+            }
+          ]
+        },
+        "recall": {
+          "prompt": "دستشویی آنجاست، سمت راست.",
+          "answer": "Toaleta jest tam, na prawo."
+        },
+        "variation": {
+          "prompt": "دستشویی آنجاست، سمت چپ.",
+          "answer": "Toaleta jest tam, na lewo.",
+          "translation": "دستشویی آنجاست، سمت چپ."
+        }
+      }
+    },
+    {
+      "id": "item_010",
+      "steps": {
+        "understand": {
+          "sentence": "Komputery są tutaj.",
+          "translation": "کامپیوترها اینجا هستند.",
+          "vocabulary": [
+            {
+              "word": "tutaj",
+              "meaning": "اینجا"
+            }
+          ]
+        },
+        "recall": {
+          "prompt": "کامپیوترها اینجا هستند.",
+          "answer": "Komputery są tutaj."
+        },
+        "variation": {
+          "prompt": "آب اینجاست.",
+          "answer": "Woda jest tutaj.",
+          "translation": "آب اینجاست."
+        }
+      }
+    },
+    {
+      "id": "item_011",
+      "steps": {
+        "understand": {
+          "sentence": "Dziękuję bardzo.",
+          "translation": "خیلی ممنون.",
+          "vocabulary": [
+            {
+              "word": "dziękuję",
+              "meaning": "متشکرم"
+            }
+          ]
+        },
+        "recall": {
+          "prompt": "خیلی ممنون.",
+          "answer": "Dziękuję bardzo."
+        },
+        "variation": {
+          "prompt": "ممنون.",
+          "answer": "Dziękuję.",
+          "translation": "ممنون."
+        }
+      }
+    },
+    {
+      "id": "item_012",
+      "steps": {
+        "understand": {
+          "sentence": "Nie rozumiem.",
+          "translation": "متوجه نمی‌شوم.",
+          "vocabulary": [
+            {
+              "word": "rozumiem",
+              "meaning": "می‌فهمم"
+            }
+          ]
+        },
+        "recall": {
+          "prompt": "متوجه نمی‌شوم.",
+          "answer": "Nie rozumiem."
+        },
+        "variation": {
+          "prompt": "متوجه می‌شوم.",
+          "answer": "Rozumiem.",
+          "translation": "متوجه می‌شوم."
+        }
+      }
+    },
+    {
+      "id": "item_013",
+      "steps": {
+        "understand": {
+          "sentence": "Proszę powtórzyć.",
+          "translation": "لطفاً تکرار کنید.",
+          "vocabulary": [
+            {
+              "word": "powtórzyć",
+              "meaning": "تکرار کردن"
+            }
+          ]
+        },
+        "recall": {
+          "prompt": "لطفاً تکرار کنید.",
+          "answer": "Proszę powtórzyć."
+        },
+        "variation": {
+          "prompt": "لطفاً بنویسید.",
+          "answer": "Proszę napisać.",
+          "translation": "لطفاً بنویسید."
+        }
+      }
+    },
+    {
+      "id": "item_014",
+      "steps": {
+        "understand": {
+          "sentence": "Mam pytanie.",
+          "translation": "یک سؤال دارم.",
+          "vocabulary": [
+            {
+              "word": "pytanie",
+              "meaning": "سؤال"
+            }
+          ]
+        },
+        "recall": {
+          "prompt": "یک سؤال دارم.",
+          "answer": "Mam pytanie."
+        },
+        "variation": {
+          "prompt": "یک سؤال دارم، این یعنی چه؟",
+          "answer": "Mam pytanie, co to znaczy?",
+          "translation": "یک سؤال دارم، این یعنی چه؟"
+        }
+      }
+    },
+    {
+      "id": "item_015",
+      "steps": {
+        "understand": {
+          "sentence": "Co to znaczy?",
+          "translation": "این یعنی چه؟",
+          "vocabulary": [
+            {
+              "word": "znaczy",
+              "meaning": "معنی می‌دهد"
+            }
+          ]
+        },
+        "recall": {
+          "prompt": "این یعنی چه؟",
+          "answer": "Co to znaczy?"
+        },
+        "variation": {
+          "prompt": "«مدرسه» یعنی چه؟",
+          "answer": "Co to znaczy „szkoła”?",
+          "translation": "«مدرسه» یعنی چه؟"
+        }
+      }
+    },
+    {
+      "id": "item_016",
+      "steps": {
+        "understand": {
+          "sentence": "Proszę przeliterować.",
+          "translation": "لطفاً هجی کنید.",
+          "vocabulary": [
+            {
+              "word": "przeliterować",
+              "meaning": "هجی کردن"
+            }
+          ]
+        },
+        "recall": {
+          "prompt": "لطفاً هجی کنید.",
+          "answer": "Proszę przeliterować."
+        },
+        "variation": {
+          "prompt": "لطفاً بخوانید.",
+          "answer": "Proszę przeczytać.",
+          "translation": "لطفاً بخوانید."
+        }
+      }
+    },
+    {
+      "id": "item_017",
+      "steps": {
+        "understand": {
+          "sentence": "To jest program kulturalny.",
+          "translation": "این برنامه فرهنگی است.",
+          "vocabulary": [
+            {
+              "word": "to jest",
+              "meaning": "این است"
+            }
+          ]
+        },
+        "recall": {
+          "prompt": "این برنامه فرهنگی است.",
+          "answer": "To jest program kulturalny."
+        },
+        "variation": {
+          "prompt": "این مدرسه است.",
+          "answer": "To jest szkoła.",
+          "translation": "این مدرسه است."
+        }
+      }
+    },
+    {
+      "id": "item_018",
+      "steps": {
+        "understand": {
+          "sentence": "Nie wiem.",
+          "translation": "نمی‌دانم.",
+          "vocabulary": [
+            {
+              "word": "wiem",
+              "meaning": "می‌دانم"
+            }
+          ]
+        },
+        "recall": {
+          "prompt": "نمی‌دانم.",
+          "answer": "Nie wiem."
+        },
+        "variation": {
+          "prompt": "بله، می‌دانم.",
+          "answer": "Tak, wiem.",
+          "translation": "بله، می‌دانم."
+        }
+      }
+    }
+  ]
+}

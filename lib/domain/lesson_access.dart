@@ -1,0 +1,1 @@
+enum LessonAccess { free, protected }
