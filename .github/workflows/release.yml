@@ -1,0 +1,99 @@
+name: Release to GitHub Pages
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages-release
+  cancel-in-progress: false
+
+jobs:
+  build:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: read
+      pages: read
+    steps:
+      - name: Check out selected commit
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.32.8'
+
+      - name: Verify tool versions
+        run: |
+          flutter --version
+          dart --version
+          flutter --version | grep -q 'Flutter 3.32.8'
+          dart --version 2>&1 | grep -q 'Dart SDK version: 3.8.1'
+
+      - name: Install Flutter dependencies
+        run: flutter pub get
+
+      - name: Analyze Dart code
+        run: flutter analyze
+
+      - name: Run Flutter tests
+        run: flutter test
+
+      - name: Run Chrome Web Crypto test
+        run: flutter test --platform chrome test/infrastructure/web_crypto_browser_interop_test.dart
+
+      - name: Validate source lesson assets
+        run: node tool/check_lesson_assets.js
+
+      - name: Build Flutter Web release
+        run: flutter build web --release --base-href /spokojnie/
+
+      - name: Verify web base path
+        run: |
+          test -f build/web/index.html
+          test "$(grep -oF '<base href=\"/spokojnie/\">' build/web/index.html | wc -l)" -eq 1
+
+      - name: Validate web build assets
+        run: node tool/check_web_build_assets.js
+
+      - name: Verify production entry files and icons
+        run: |
+          test -f build/web/index.html
+          test -f build/web/flutter_bootstrap.js
+          test -f build/web/main.dart.js
+          test -f build/web/manifest.json
+          test -f build/web/favicon.png
+          test -f build/web/icons/Icon-192.png
+          test -f build/web/icons/Icon-512.png
+          test -f build/web/assets/AssetManifest.bin.json || test -f build/web/assets/AssetManifest.json
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload web artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: build/web
+
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-24.04
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
