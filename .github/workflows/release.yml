@@ -59,7 +59,7 @@ jobs:
       - name: Verify web base path
         run: |
           test -f build/web/index.html
-          test "$(grep -oF '<base href=\"/spokojnie/\">' build/web/index.html | wc -l)" -eq 1
+          node .github/verify_web_base_path.js build/web/index.html
 
       - name: Validate web build assets
         run: node tool/check_web_build_assets.js
